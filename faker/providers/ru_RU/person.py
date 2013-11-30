@@ -167,3 +167,7 @@ class Provider(PersonProvider):
     @classmethod
     def middle_name_f(cls):
         return cls.random_element(cls.middle_names_f)
+
+    @classmethod
+    def initials(cls):
+        return '%s.%s.' % (cls.first_name()[0], cls.middle_name()[0])
