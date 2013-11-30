@@ -15,6 +15,7 @@ DEFAULT_PROVIDERS = (
     'file',
     'python',
     'credit_card',
+    'merchandise',
 )
 
 from faker.generator import Generator
